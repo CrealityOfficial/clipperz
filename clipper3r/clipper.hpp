@@ -58,9 +58,9 @@
 #include <queue>
 
 #ifdef use_xyz
-namespace ClipperLib_Z {
+namespace Clipper3r_Z {
 #else /* use_xyz */
-namespace ClipperLib {
+namespace Clipper3r {
 #endif /* use_xyz */
 
 enum ClipType { ctIntersection, ctUnion, ctDifference, ctXor };

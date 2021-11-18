@@ -62,9 +62,9 @@
 #endif
 
 #ifdef use_xyz
-namespace ClipperLib_Z {
+namespace Clipper3r_Z {
 #else /* use_xyz */
-namespace ClipperLib {
+namespace Clipper3r {
 #endif /* use_xyz */
 
 static double const pi = 3.141592653589793238;
