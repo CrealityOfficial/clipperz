@@ -2,8 +2,8 @@ __cc_find(eigen)
 
 __add_real_target(clipper3r lib
 	SOURCE
-		#clipper.cpp
-		#clipper.hpp
+		clipper/clipper.cpp
+		clipper/clipper.hpp
 		clipper/clipper_z.cpp
 		clipper/clipper_z.hpp
 	ILIB eigen
