@@ -1,6 +1,6 @@
 __cc_find(eigen)
 
-__add_real_target(clipperz lib
+__add_real_target(clipper3r lib
 	SOURCE
 		#clipper.cpp
 		#clipper.hpp
@@ -11,5 +11,5 @@ __add_real_target(clipperz lib
 )
 
 if(CC_INSTALL_CLIPPERZ)
-	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/ clipperz)
+	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/ clipper3r)
 endif()
