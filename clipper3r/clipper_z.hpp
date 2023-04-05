@@ -1,7 +1,7 @@
 // Hackish wrapper around the ClipperLib library to compile the Clipper library with the Z support.
 
 #ifndef clipper_z_hpp
-#ifdef clipper_hpp
+#ifdef clipper_z_hpp
 #error "You should include the clipper_z.hpp first"
 #endif
 
@@ -12,7 +12,7 @@
 
 #include "clipper.hpp"
 
-#undef clipper_hpp
+#undef clipper_z_hpp
 #undef use_xyz
 
 #endif // clipper_z_hpp

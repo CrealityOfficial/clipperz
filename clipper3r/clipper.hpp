@@ -31,8 +31,8 @@
 *                                                                              *
 *******************************************************************************/
 
-#ifndef clipper_hpp
-#define clipper_hpp
+#ifndef clipper_z_hpp
+#define clipper_z_hpp
 
 #include <inttypes.h>
 #include <functional>
@@ -487,6 +487,6 @@ class clipperException : public std::exception
 
 } //ClipperLib namespace
 
-#endif //clipper_hpp
+#endif //clipper_z_hpp
 
 
